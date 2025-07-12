@@ -32,5 +32,37 @@ Admin Role
 ●	Send platform-wide messages (e.g., feature updates, downtime alerts). ● Download reports of user activity, feedback logs, and swap stats. 
  
 Mockup - https://link.excalidraw.com/l/65VNwvy7c4X/8bM86GXnnUN 
+// Above info provided by organisers //
+
+📝 Overview:
+The Skill Swap Platform is a web-based application where users can log in, post skills they offer, and request to learn new skills from others. It's aimed at college and school students for easy peer-to-peer learning exchanges.
+
+🧱 Tech Stack:
+Layer	Technology
+Frontend	HTML, CSS, JavaScript
+UI Styling	Tailwind CSS / Custom CSS
+Backend DB	Supabase (PostgreSQL + Auth)
+Hosting	GitHub Pages / Netlify
+
+🌐 Core Features:
+🧑‍🎓 User Authentication (via Supabase)
+Sign up / Log in with email & password
+Session-based login
+
+📝 Skill Posting
+Users can post:
+Skills they offer
+Skills they want to learn
+Availability
+
+🔍 Browse Skills
+View public profiles of other users
+Filter by skill or location
+
+🔁 Swap Request
+Send a swap request to another user
+Accept or reject requests
+View sent/received request history
+
 
 Demo - https://skillswapplatform.netlify.app/
